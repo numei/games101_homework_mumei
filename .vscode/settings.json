@@ -1,0 +1,9 @@
+{
+  "cmake.sourceDirectory": "/Users/mumei/Desktop/games101/homework",
+  "files.associations": {
+    "iostream": "cpp",
+    "cmath": "cpp",
+    "core": "cpp",
+    "dense": "cpp"
+  }
+}

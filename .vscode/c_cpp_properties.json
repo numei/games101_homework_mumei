@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "name": "Mac",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/opt/homebrew/include",
+        "/opt/homebrew/include/opencv4", // 必须添加这一行
+        "/opt/homebrew/opt/eigen/include/eigen3" // 建议顺便把 Eigen 也精准加上
+      ],
+      "defines": [],
+      "compilerPath": "/usr/bin/clang++", // Mac 建议改用 clang++
+      "cStandard": "c17",
+      "cppStandard": "c++17", // GAMES101 建议使用 C++17
+      "intelliSenseMode": "macos-clang-arm64"
+    }
+  ],
+  "version": 4
+}

@@ -1,5 +1,13 @@
-CMakeFiles/main.dir/main.cpp.o: \
-  /Users/mumei/Desktop/games101_homework_mumei/00/main.cpp \
+CMakeFiles/main.dir/Triangle.cpp.o: \
+  /Users/mumei/Desktop/games101_homework_mumei/01/Triangle.cpp \
+  /Users/mumei/Desktop/games101_homework_mumei/01/Triangle.hpp \
+  /opt/homebrew/include/eigen3/Eigen/Eigen \
+  /opt/homebrew/include/eigen3/Eigen/Dense \
+  /opt/homebrew/include/eigen3/Eigen/Core \
+  /opt/homebrew/include/eigen3/Eigen/Version \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/util/Macros.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/util/../InternalHeaderCheck.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -126,6 +134,12 @@ CMakeFiles/main.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/forward.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/underlying_type.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_final.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/conjunction.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/disjunction.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/has_unique_object_representation.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_aggregate.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_swappable.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/negation.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_constant_evaluated.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/special_functions.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/copysign.h \
@@ -197,16 +211,7 @@ CMakeFiles/main.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_abort.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h \
-  /opt/homebrew/include/eigen3/Eigen/Eigen \
-  /opt/homebrew/include/eigen3/Eigen/Dense \
-  /opt/homebrew/include/eigen3/Eigen/Core \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/util/Macros.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_neon.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_bf16.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_vector_types.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_fp16.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/new \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__new/align_val_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__new/allocate.h \
@@ -232,11 +237,17 @@ CMakeFiles/main.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__new/global_typed_new_delete.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__new/new_handler.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__new/placement_new_delete.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__new/interference_size.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__new/launder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/byte.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/byte.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/ptrdiff_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdlib \
+  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_neon.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_bf16.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_vector_types.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_fp16.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/complex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/complex.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/tuple.h \
@@ -272,7 +283,6 @@ CMakeFiles/main.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/compare_three_way_result.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/hash.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/conjunction.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/pair.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/synth_three_way.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/different_from.h \
@@ -280,7 +290,6 @@ CMakeFiles/main.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/pair.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/tuple_like_no_subrange.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_implicitly_default_constructible.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_swappable.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_relocatable.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/unwrap_ref.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/piecewise_construct.h \
@@ -303,7 +312,6 @@ CMakeFiles/main.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/pointer_traits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/detected_or.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/array_cookie.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/negation.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/auto_ptr.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/compressed_pair.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/datasizeof.h \
@@ -333,7 +341,6 @@ CMakeFiles/main.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_primary_template.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_valid_expansion.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/readable_traits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/disjunction.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/fstream.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/istream.h \
@@ -421,6 +428,8 @@ CMakeFiles/main.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/terminate.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/utility \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/rel_ops.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/as_const.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/in_place.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/no_destroy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cctype \
@@ -543,7 +552,6 @@ CMakeFiles/main.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/for_each.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/movable_box.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/optional \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/in_place.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/atomic \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/aliases.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic.h \
@@ -690,8 +698,10 @@ CMakeFiles/main.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/transform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unique.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unique_copy.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/execution \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_execution_policy.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/clamp.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/for_each_n.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sample.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bit \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_category.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_code.h \
@@ -770,83 +780,97 @@ CMakeFiles/main.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_negate.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/strip_signature.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/boyer_moore_searcher.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__vector/vector.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_copy_n.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/unreachable_sentinel.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__vector/comparison.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__vector/container_traits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__vector/swap.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/is_transparent.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__hash_table \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__new/launder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/can_extract_key.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_const_ref.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/erase_if_container.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/ranges_iterator_traits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/default_searcher.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/not_fn.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/perfect_forward.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/vector \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__vector/comparison.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__vector/swap.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__vector/vector.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_copy_n.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/unreachable_sentinel.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__vector/container_traits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__vector/vector_bool.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__vector/pmr.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/util/MKL_support.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/util/Constants.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/util/Meta.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/util/Assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/util/Constants.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/util/Meta.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/util/StaticAssert.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/util/XprHelper.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/util/Memory.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/util/IntegralConstant.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/util/Serializer.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/util/EmulateArray.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/util/MoreMeta.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/NumTraits.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/./InternalHeaderCheck.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/MathFunctions.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/RandomImpl.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/GenericPacketMath.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/../../InternalHeaderCheck.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/Half.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/arch/NEON/../../InternalHeaderCheck.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/arch/NEON/TypeCasting.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/arch/NEON/MathFunctions.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/Settings.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/functors/../InternalHeaderCheck.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/functors/StlFunctors.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/arch/NEON/UnaryFunctors.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/ArithmeticSequence.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/IO.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/DenseBase.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseUnaryOps.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/../plugins/BlockMethods.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/../plugins/IndexedViewMethods.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/../plugins/ReshapedMethods.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseUnaryOps.inc \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/../plugins/BlockMethods.inc \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/../plugins/IndexedViewMethods.inc \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/../plugins/ReshapedMethods.inc \
   /opt/homebrew/include/eigen3/Eigen/src/Core/MatrixBase.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseBinaryOps.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.inc \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.inc \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseBinaryOps.inc \
   /opt/homebrew/include/eigen3/Eigen/src/Core/EigenBase.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/Product.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/CoreEvaluators.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/AssignEvaluator.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/RealView.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/Assign.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/ArrayBase.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseBinaryOps.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseBinaryOps.inc \
   /opt/homebrew/include/eigen3/Eigen/src/Core/util/BlasUtil.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/DenseStorage.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/NestByValue.h \
@@ -855,12 +879,14 @@ CMakeFiles/main.dir/main.cpp.o: \
   /opt/homebrew/include/eigen3/Eigen/src/Core/PlainObjectBase.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/Matrix.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/Array.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/Fill.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/CwiseUnaryView.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/InnerProduct.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/Dot.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/StableNorm.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/Stride.h \
@@ -875,8 +901,10 @@ CMakeFiles/main.dir/main.cpp.o: \
   /opt/homebrew/include/eigen3/Eigen/src/Core/DiagonalMatrix.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/Diagonal.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/DiagonalProduct.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/SkewSymmetricMatrix3.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/Redux.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/Visitor.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/FindCoeff.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/Fuzzy.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/Swap.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/CommaInitializer.h \
@@ -889,6 +917,8 @@ CMakeFiles/main.dir/main.cpp.o: \
   /opt/homebrew/include/eigen3/Eigen/src/Core/TriangularMatrix.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/SelfAdjointView.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/products/../InternalHeaderCheck.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/DeviceWrapper.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/products/Parallelizer.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/ProductEvaluators.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h \
@@ -907,7 +937,6 @@ CMakeFiles/main.dir/main.cpp.o: \
   /opt/homebrew/include/eigen3/Eigen/src/Core/CoreIterators.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/ConditionEstimator.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/arch/NEON/GeneralBlockPanelKernel.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/BooleanRedux.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/Select.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/VectorwiseOp.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h \
@@ -920,34 +949,43 @@ CMakeFiles/main.dir/main.cpp.o: \
   /opt/homebrew/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
   /opt/homebrew/include/eigen3/Eigen/LU \
   /opt/homebrew/include/eigen3/Eigen/src/misc/Kernel.h \
+  /opt/homebrew/include/eigen3/Eigen/src/misc/./InternalHeaderCheck.h \
   /opt/homebrew/include/eigen3/Eigen/src/misc/Image.h \
   /opt/homebrew/include/eigen3/Eigen/src/LU/FullPivLU.h \
+  /opt/homebrew/include/eigen3/Eigen/src/LU/./InternalHeaderCheck.h \
   /opt/homebrew/include/eigen3/Eigen/src/LU/PartialPivLU.h \
   /opt/homebrew/include/eigen3/Eigen/src/LU/Determinant.h \
   /opt/homebrew/include/eigen3/Eigen/src/LU/InverseImpl.h \
   /opt/homebrew/include/eigen3/Eigen/src/LU/arch/InverseSize4.h \
+  /opt/homebrew/include/eigen3/Eigen/src/LU/arch/../InternalHeaderCheck.h \
   /opt/homebrew/include/eigen3/Eigen/Cholesky \
   /opt/homebrew/include/eigen3/Eigen/Jacobi \
   /opt/homebrew/include/eigen3/Eigen/src/Jacobi/Jacobi.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Jacobi/./InternalHeaderCheck.h \
   /opt/homebrew/include/eigen3/Eigen/src/Cholesky/LLT.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Cholesky/./InternalHeaderCheck.h \
   /opt/homebrew/include/eigen3/Eigen/src/Cholesky/LDLT.h \
   /opt/homebrew/include/eigen3/Eigen/QR \
   /opt/homebrew/include/eigen3/Eigen/Householder \
   /opt/homebrew/include/eigen3/Eigen/src/Householder/Householder.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Householder/./InternalHeaderCheck.h \
   /opt/homebrew/include/eigen3/Eigen/src/Householder/HouseholderSequence.h \
   /opt/homebrew/include/eigen3/Eigen/src/Householder/BlockHouseholder.h \
   /opt/homebrew/include/eigen3/Eigen/src/QR/HouseholderQR.h \
+  /opt/homebrew/include/eigen3/Eigen/src/QR/./InternalHeaderCheck.h \
   /opt/homebrew/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h \
   /opt/homebrew/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h \
   /opt/homebrew/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h \
   /opt/homebrew/include/eigen3/Eigen/SVD \
   /opt/homebrew/include/eigen3/Eigen/src/misc/RealSvd2x2.h \
   /opt/homebrew/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SVD/./InternalHeaderCheck.h \
   /opt/homebrew/include/eigen3/Eigen/src/SVD/SVDBase.h \
   /opt/homebrew/include/eigen3/Eigen/src/SVD/JacobiSVD.h \
   /opt/homebrew/include/eigen3/Eigen/src/SVD/BDCSVD.h \
   /opt/homebrew/include/eigen3/Eigen/Geometry \
   /opt/homebrew/include/eigen3/Eigen/src/Geometry/OrthoMethods.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Geometry/./InternalHeaderCheck.h \
   /opt/homebrew/include/eigen3/Eigen/src/Geometry/EulerAngles.h \
   /opt/homebrew/include/eigen3/Eigen/src/Geometry/Homogeneous.h \
   /opt/homebrew/include/eigen3/Eigen/src/Geometry/RotationBase.h \
@@ -962,10 +1000,13 @@ CMakeFiles/main.dir/main.cpp.o: \
   /opt/homebrew/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
   /opt/homebrew/include/eigen3/Eigen/src/Geometry/Umeyama.h \
   /opt/homebrew/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Geometry/arch/../InternalHeaderCheck.h \
   /opt/homebrew/include/eigen3/Eigen/Eigenvalues \
   /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/./InternalHeaderCheck.h \
   /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
   /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/./HessenbergDecomposition.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/././InternalHeaderCheck.h \
   /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h \
   /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/./RealSchur.h \
   /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h \
@@ -983,20 +1024,35 @@ CMakeFiles/main.dir/main.cpp.o: \
   /opt/homebrew/include/eigen3/Eigen/SparseCore \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/accumulate.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inner_product.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/iota.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/exclusive_scan.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/gcd_lcm.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/pstl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/reduce.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_reduce.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/execution \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_execution_policy.h \
   /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseUtil.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/./InternalHeaderCheck.h \
   /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/../plugins/CommonCwiseUnaryOps.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/../plugins/CommonCwiseBinaryOps.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/../plugins/MatrixCwiseUnaryOps.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/../plugins/MatrixCwiseBinaryOps.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/../plugins/BlockMethods.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/../plugins/CommonCwiseUnaryOps.inc \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/../plugins/CommonCwiseBinaryOps.inc \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/../plugins/MatrixCwiseUnaryOps.inc \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/../plugins/MatrixCwiseBinaryOps.inc \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/../plugins/BlockMethods.inc \
   /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseAssign.h \
   /opt/homebrew/include/eigen3/Eigen/src/SparseCore/CompressedStorage.h \
   /opt/homebrew/include/eigen3/Eigen/src/SparseCore/AmbiVector.h \
   /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseCompressedBase.h \
   /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseMatrix.h \
   /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseMap.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/MappedSparseMatrix.h \
   /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseVector.h \
   /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseRef.h \
   /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseCwiseUnaryOp.h \
@@ -1019,13 +1075,16 @@ CMakeFiles/main.dir/main.cpp.o: \
   /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h \
   /opt/homebrew/include/eigen3/Eigen/OrderingMethods \
   /opt/homebrew/include/eigen3/Eigen/src/OrderingMethods/Amd.h \
+  /opt/homebrew/include/eigen3/Eigen/src/OrderingMethods/./InternalHeaderCheck.h \
   /opt/homebrew/include/eigen3/Eigen/src/OrderingMethods/Ordering.h \
   /opt/homebrew/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h \
   /opt/homebrew/include/eigen3/Eigen/SparseCholesky \
   /opt/homebrew/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCholesky/./InternalHeaderCheck.h \
   /opt/homebrew/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h \
   /opt/homebrew/include/eigen3/Eigen/SparseLU \
   /opt/homebrew/include/eigen3/Eigen/src/SparseLU/SparseLU_Structs.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseLU/./InternalHeaderCheck.h \
   /opt/homebrew/include/eigen3/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h \
   /opt/homebrew/include/eigen3/Eigen/src/SparseLU/SparseLUImpl.h \
   /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseColEtree.h \
@@ -1044,8 +1103,10 @@ CMakeFiles/main.dir/main.cpp.o: \
   /opt/homebrew/include/eigen3/Eigen/src/SparseLU/SparseLU.h \
   /opt/homebrew/include/eigen3/Eigen/SparseQR \
   /opt/homebrew/include/eigen3/Eigen/src/SparseQR/SparseQR.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseQR/./InternalHeaderCheck.h \
   /opt/homebrew/include/eigen3/Eigen/IterativeLinearSolvers \
   /opt/homebrew/include/eigen3/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h \
+  /opt/homebrew/include/eigen3/Eigen/src/IterativeLinearSolvers/./InternalHeaderCheck.h \
   /opt/homebrew/include/eigen3/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h \
   /opt/homebrew/include/eigen3/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h \
   /opt/homebrew/include/eigen3/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h \
@@ -1053,5 +1114,4 @@ CMakeFiles/main.dir/main.cpp.o: \
   /opt/homebrew/include/eigen3/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h \
   /opt/homebrew/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h \
   /opt/homebrew/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/list

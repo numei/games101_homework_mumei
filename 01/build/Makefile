@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mumei/Desktop/games101_homework_mumei/00
+CMAKE_SOURCE_DIR = /Users/mumei/Desktop/games101_homework_mumei/01
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mumei/Desktop/games101_homework_mumei/00/build
+CMAKE_BINARY_DIR = /Users/mumei/Desktop/games101_homework_mumei/01/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,17 +87,10 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mumei/Desktop/games101_homework_mumei/00/build/CMakeFiles /Users/mumei/Desktop/games101_homework_mumei/00/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mumei/Desktop/games101_homework_mumei/01/build/CMakeFiles /Users/mumei/Desktop/games101_homework_mumei/01/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mumei/Desktop/games101_homework_mumei/00/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mumei/Desktop/games101_homework_mumei/01/build/CMakeFiles 0
 .PHONY : all
-
-# The main codegen target
-codegen: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mumei/Desktop/games101_homework_mumei/00/build/CMakeFiles /Users/mumei/Desktop/games101_homework_mumei/00/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 codegen
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mumei/Desktop/games101_homework_mumei/00/build/CMakeFiles 0
-.PHONY : codegen
 
 # The main clean target
 clean:
@@ -136,6 +129,30 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+Triangle.o: Triangle.cpp.o
+.PHONY : Triangle.o
+
+# target to build an object file
+Triangle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Triangle.cpp.o
+.PHONY : Triangle.cpp.o
+
+Triangle.i: Triangle.cpp.i
+.PHONY : Triangle.i
+
+# target to preprocess a source file
+Triangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Triangle.cpp.i
+.PHONY : Triangle.cpp.i
+
+Triangle.s: Triangle.cpp.s
+.PHONY : Triangle.s
+
+# target to generate assembly for a file
+Triangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Triangle.cpp.s
+.PHONY : Triangle.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -160,19 +177,48 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+rasterizer.o: rasterizer.cpp.o
+.PHONY : rasterizer.o
+
+# target to build an object file
+rasterizer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/rasterizer.cpp.o
+.PHONY : rasterizer.cpp.o
+
+rasterizer.i: rasterizer.cpp.i
+.PHONY : rasterizer.i
+
+# target to preprocess a source file
+rasterizer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/rasterizer.cpp.i
+.PHONY : rasterizer.cpp.i
+
+rasterizer.s: rasterizer.cpp.s
+.PHONY : rasterizer.s
+
+# target to generate assembly for a file
+rasterizer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/rasterizer.cpp.s
+.PHONY : rasterizer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... codegen"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
+	@echo "... Triangle.o"
+	@echo "... Triangle.i"
+	@echo "... Triangle.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... rasterizer.o"
+	@echo "... rasterizer.i"
+	@echo "... rasterizer.s"
 .PHONY : help
 
 

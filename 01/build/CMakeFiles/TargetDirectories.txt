@@ -1,0 +1,3 @@
+/Users/mumei/Desktop/games101_homework_mumei/01/build/CMakeFiles/main.dir
+/Users/mumei/Desktop/games101_homework_mumei/01/build/CMakeFiles/edit_cache.dir
+/Users/mumei/Desktop/games101_homework_mumei/01/build/CMakeFiles/rebuild_cache.dir
